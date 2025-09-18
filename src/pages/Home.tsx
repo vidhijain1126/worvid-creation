@@ -1,0 +1,32 @@
+import React from 'react';
+import Header from '../components/Header';
+import Hero from '../components/Hero';
+import Services from '../components/Services';
+import Process from '../components/Process';
+import About from '../components/About';
+import Portfolio from '../components/Portfolio';
+import BlogSection from '../components/BlogSection';
+import Blog from '../components/Blog';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
+
+const Home: React.FC = () => {
+  return (
+    <div className="min-h-screen bg-slate-900">
+      <Header />
+      <Hero />
+      <Services />
+      <Process />
+      <About />
+      <Portfolio />
+      <BlogSection />
+      <Blog />
+      <Contact />
+      <Footer />
+    </div>
+  );
+};
+
+export default Home;
+
+
