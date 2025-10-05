@@ -9,6 +9,7 @@ import BlogSection from '../components/BlogSection';
 import Blog from '../components/Blog';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import Mission from '../components/Mission';
 
 const Home: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ const Home: React.FC = () => {
       <Services />
       <Process />
       <About />
+      <Mission />
       <Portfolio />
       <BlogSection />
       <Blog />

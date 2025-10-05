@@ -205,12 +205,12 @@ const Contact = () => {
                 <div>
                   <div className="text-white font-semibold">Instagram</div>
                   <a 
-                    href="https://www.instagram.com/worvidcreation/" 
+                    href="https://www.instagram.com/worvid.creation/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-teal-400 transition-colors duration-200"
                   >
-                    @worvidcreation
+                    @worvid.creation
                   </a>
                 </div>
               </div>
