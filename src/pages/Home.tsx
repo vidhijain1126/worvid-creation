@@ -6,7 +6,6 @@ import Process from '../components/Process';
 import About from '../components/About';
 import Portfolio from '../components/Portfolio';
 import BlogSection from '../components/BlogSection';
-import Blog from '../components/Blog';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import Mission from '../components/Mission';
@@ -22,7 +21,6 @@ const Home: React.FC = () => {
       <Mission />
       <Portfolio />
       <BlogSection />
-      <Blog />
       <Contact />
       <Footer />
     </div>
